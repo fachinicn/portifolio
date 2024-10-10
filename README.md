@@ -23,6 +23,6 @@ Planejamos melhorias contínuas para otimizar e expandir as funcionalidades do p
 - **Adicionar novas animações e transições** para melhorar a experiência do usuário
 - **Otimizar o desempenho** para carregar mais rapidamente em dispositivos móveis
 
-Portifolio: 
-LinkedIn: linkedin.com/in/candido-fachini-neto-927926235/
+Portifolio:   
+LinkedIn: linkedin.com/in/candido-fachini-neto-927926235/  
 G-mail: candidofachini25@gmail.com
