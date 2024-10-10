@@ -1,0 +1,14 @@
+.projetos-painel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .projetos-painel {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

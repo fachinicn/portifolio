@@ -1,0 +1,62 @@
+.card {
+  background-color: #313131;
+  border-radius: 10px;
+  width: 130px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 3rem;
+  border: 2px solid transparent;
+  background: linear-gradient(#313131, #313131) padding-box,
+    linear-gradient(
+        45deg,
+        #c31432,
+        #d72638,
+        #e63946,
+        #b83280,
+        #8e2a8e,
+        #611f96,
+        #482880,
+        #361151
+      )
+      border-box;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card h3 {
+  color: #d81435;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 60px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100px;
+    height: 140px;
+    left: 0;
+    padding: 5px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .card img {
+    width: 50px;
+  }
+}

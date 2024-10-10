@@ -1,0 +1,18 @@
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+li img {
+  height: 50px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  li img {
+    height: 40px;
+    width: auto;
+  }
+}
