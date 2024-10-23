@@ -21,6 +21,22 @@ const projetosData = [
     repoLink: "https://github.com/fachinicn/exam-e",
     projectLink: "https://exam-e-ten.vercel.app",
   },
+  {
+    name: "Página de contato",
+    image: "https://i.ibb.co/BTnQk3S/MY-MEDS.png",
+    skills: [
+      {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+      },
+      {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg",
+      },
+    ],
+    description:
+      "Simples página de contato, onde o foco é a prática de HTML e CSS. Utiliza-se de elementos forms para obter as informações de contato e possui recusrividade para dispositivos mobile.",
+    repoLink: "https://github.com/fachinicn/contato",
+    projectLink: "https://fachinicn.github.io/contato/",
+  },
 ];
 
 const ProjetosPainel = () => {
