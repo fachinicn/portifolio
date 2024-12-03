@@ -49,14 +49,24 @@ const AboutMe = () => {
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
-                  "https://drive.google.com/file/d/1a2wUW3yTHLUV9cXMCNo8bUZgJH-dwvZ8/view?usp=sharing",
+                  "https://drive.google.com/file/d/1t-Uta_MSfJkObJAEq0ogPdS16bwEuVeU/view?usp=sharing",
                   "_blank"
                 );
               }}
             >
               Baixar Currículo
             </button>
-            <button className="sobre-button">Entrar em contato</button>
+            <button
+              className="sobre-button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=candidofachini25@gmail.com"
+                );
+              }}
+            >
+              Entrar em contato
+            </button>
           </div>
         </div>
       ) : (

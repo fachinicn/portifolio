@@ -39,6 +39,13 @@ const Habilidades = () => {
             />
             <CardHabilidade
               icon={
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+              }
+              name={"Vue"}
+              altIcon={"Vue-logo"}
+            />
+            <CardHabilidade
+              icon={
                 "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
               }
               name={"Tailwind CSS"}
@@ -50,6 +57,13 @@ const Habilidades = () => {
               }
               name={"Git"}
               altIcon={"Git-logo"}
+            />
+            <CardHabilidade
+              icon={
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+              }
+              name={"Node.js"}
+              altIcon={"nodejs-logo"}
             />
             <CardHabilidade
               icon={

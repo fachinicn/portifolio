@@ -7,7 +7,6 @@ import Habilidades from "./components/Habilidades.jsx";
 import Projetos from "./components/Projetos.jsx";
 import ProjetosPainel from "./components/ProjetoPainel.jsx";
 import Footer from "./components/Footer.jsx";
-
 function App() {
   return (
     <div className="App">
